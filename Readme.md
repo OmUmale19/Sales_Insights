@@ -4,6 +4,22 @@ An end-to-end **Business Intelligence Dashboard** built using **Power BI** and *
 
 ---
 
+## 📷 Dashboard Preview
+
+### Sales Dashboard
+
+<p align="center">
+  <img src="Sales_Dashboard_Image.jpg" alt="Sales Dashboard" width="100%">
+</p>
+
+### Data Model (Schema)
+
+<p align="center">
+  <img src="Schema.png" alt="Database Schema" width="85%">
+</p>
+
+---
+
 ## 🚀 Features
 
 - 📈 Interactive Sales Dashboard
@@ -21,19 +37,19 @@ An end-to-end **Business Intelligence Dashboard** built using **Power BI** and *
 
 ## 🛠️ Tech Stack
 
-- Power BI Desktop
-- MySQL
-- SQL
-- Power Query
-- DAX
-- Data Modeling
-- Business Intelligence
+- **Power BI Desktop**
+- **MySQL**
+- **SQL**
+- **Power Query**
+- **DAX**
+- **Data Modeling**
+- **Business Intelligence**
 
 ---
 
-# 📁 Repository Structure
+## 📁 Repository Structure
 
-```
+```text
 SALES/
 │
 ├── dataset/
@@ -50,21 +66,23 @@ SALES/
 ├── Dump20260628.sql
 ├── Readme.md
 ├── Sales_Dashboard.pbix
-└── Sales_Dashboard.pdf
+├── Sales_Dashboard.pdf
+├── Sales_Dashboard_Image.jpg
+└── Schema.png
 ```
 
 ---
 
 ## 📊 Dashboard Overview
 
-The dashboard provides interactive business insights through multiple visualizations.
+This dashboard provides interactive business insights through multiple visualizations.
 
 ### Key KPIs
 
 | Metric | Value |
 |---------|------:|
-| Revenue | **985M** |
-| Sales Quantity | **2M** |
+| **Revenue** | **985M** |
+| **Sales Quantity** | **2M** |
 
 ### Dashboard Insights
 
@@ -73,7 +91,9 @@ The dashboard provides interactive business insights through multiple visualizat
 - Revenue by City
 - Top 5 Customers by Revenue
 - Top 10 Products by Revenue
-- Revenue Trend over Time
+- Revenue Trend Analysis
+- Interactive Slicers & Filters
+- Executive KPI Cards
 
 ---
 
@@ -87,7 +107,7 @@ The project uses a MySQL database consisting of the following tables:
 - Transactions
 - Date
 
-The SQL scripts for each table are available inside the **SQL/** directory.
+Individual SQL scripts are available inside the **SQL/** directory.
 
 ---
 
@@ -95,11 +115,13 @@ The SQL scripts for each table are available inside the **SQL/** directory.
 
 | File | Description |
 |------|-------------|
-| **Sales_Dashboard.pbix** | Power BI Dashboard |
-| **Sales_Dashboard.pdf** | Exported Dashboard Report |
-| **Dump20260628.sql** | Complete MySQL Database Dump |
-| **dataset/db_dump.sql** | Database Backup |
-| **SQL/** | Individual SQL scripts for all tables |
+| **Sales_Dashboard.pbix** | Power BI dashboard source file |
+| **Sales_Dashboard.pdf** | Exported dashboard report |
+| **Sales_Dashboard_Image.jpg** | Dashboard preview |
+| **Schema.png** | Data model relationship diagram |
+| **Dump20260628.sql** | Complete MySQL database dump |
+| **dataset/db_dump.sql** | Database backup |
+| **SQL/** | Individual SQL scripts for each table |
 
 ---
 
@@ -107,16 +129,16 @@ The SQL scripts for each table are available inside the **SQL/** directory.
 
 The dashboard enables users to:
 
-- Monitor overall sales performance.
-- Identify top-performing customers.
-- Analyze product-wise revenue.
-- Track regional sales performance.
-- Understand yearly and monthly revenue trends.
-- Make data-driven business decisions using interactive reports.
+- Monitor overall sales performance
+- Analyze customer purchasing behavior
+- Identify top-performing products
+- Compare revenue across different cities
+- Track revenue trends over time
+- Support data-driven business decisions
 
 ---
 
-## ⚙️ How to Use
+## ⚙️ Getting Started
 
 ### Clone the repository
 
@@ -128,7 +150,7 @@ git clone https://github.com/OmUmale19/Sales-Analytics-Dashboard.git
 
 Use either:
 
-- `Dump20260628.sql` (complete database)
+- `Dump20260628.sql` (Complete Database)
 
 or
 
@@ -136,19 +158,15 @@ or
 
 ### Open the Dashboard
 
-Open **Sales_Dashboard.pbix** using **Power BI Desktop**.
-
-Update the MySQL connection if required and click **Refresh**.
+Open **Sales_Dashboard.pbix** in **Power BI Desktop**, update the MySQL data source if needed, and click **Refresh**.
 
 ---
 
 ## 🎯 Resume Highlights
 
-- Developed an end-to-end Business Intelligence dashboard in **Power BI** integrated with a **MySQL** database, transforming raw sales data into interactive visualizations for revenue, profit, order volume, and customer analytics.
-
+- Developed an end-to-end Business Intelligence dashboard in **Power BI** integrated with **MySQL**, transforming raw sales data into interactive visualizations for revenue, profit, order volume, and customer analytics.
 - Engineered efficient **Power Query ETL workflows** and **DAX measures** to automate data cleaning, KPI computation, monthly sales analysis, and category-wise performance tracking, reducing manual reporting effort by **~90%**.
-
-- Designed executive-level dashboards featuring KPI cards, line charts, drill-down capabilities, and interactive slicers for dynamic analysis of sales trends, regional performance, and product insights, improving business reporting efficiency by **~80%**.
+- Designed executive-level dashboards featuring KPI cards, drill-down capabilities, interactive slicers, and trend analysis to improve business reporting efficiency by **~80%**.
 
 ---
 
@@ -162,4 +180,4 @@ Update the MySQL connection if required and click **Refresh**.
 
 ---
 
-⭐ If you found this project useful, consider giving it a star!
+⭐ If you found this project useful, consider giving it a **Star**!
