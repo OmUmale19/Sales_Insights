@@ -4,6 +4,10 @@ An end-to-end **Business Intelligence Dashboard** built using **Power BI** and *
 
 ---
 
+## 🔗 **Live Dashboard:**  
+https://app.powerbi.com/groups/me/reports/7fde7087-1626-413d-a69d-bdd7d983ff5d/df60d6cc76d190d0dc77?experience=power-bi
+
+
 ## 📷 Dashboard Preview
 
 ### Sales Dashboard
